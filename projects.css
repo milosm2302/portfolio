@@ -26,10 +26,11 @@
 
 }
 .cardHolder{
-	width:460px;
-	margin: 10px;
+	width:420px;
+	margin: 30px;
 	border-radius: 10px;
-	box-shadow:15px 10px 10px #dbced1;
+	box-shadow: 10px 10px 5px #201d1e1a,
+	-20px -20px 10px #ffffffe8;
 	border: 2px  solid #f5f6f7;
 	display: flex;
 	justify-content: flex-start;
@@ -39,8 +40,9 @@
 
 }
 .cardHolder:hover{
-	box-shadow:15px 10px 10px #808079;
-	transition: ease 1s;
+	box-shadow:10px 10px 5px #8080799f;
+	transition: ease-in 0.5s;
+
 
 }
 .cardHolder p{

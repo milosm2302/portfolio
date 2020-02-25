@@ -71,21 +71,22 @@
 .formalHed, .ItHed{
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	flex-direction: column;
 	background-color: #e3e3e3;
-	border: 2px solid #f5f6f7;
-	box-shadow: 15px 10px 10px  #dbced1;
-	padding:0 50px;
+	box-shadow: -2px -2px 10px  #ffffff,
+	2px 2px 10px rgba(0, 0, 0, 0.267);
 	border-radius: 5px;
 	cursor: pointer;
+	width: 250px;
+	height: 60px;
 
 }
 .formalHed h2, .ItHed h2{
-	margin:5px 0 0 0 ;
+	
 }
 .fa-caret-down{
-	margin-bottom: 10px;
+
 	font-size: 1.5rem;
 	color: #49c5b6
 }
@@ -116,8 +117,8 @@ margin-top: 1rem;
 
 .flip{
 	background-color:transparent;
-	width: 400px;
-	height: 500px;
+	width: 350px;
+	height: 400px;
 	cursor: pointer;
 	margin-bottom: 50px;
 
@@ -144,37 +145,48 @@ margin-top: 1rem;
 	height: 100%;
 	backface-visibility: hidden;
 	border-radius: 10px;
-	box-shadow:15px 10px 10px #dbced1;
 	border: 3px solid #f5f6f7;
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
+	align-items: flex-start;
+	justify-content: space-between;
 	list-style-type: none; 
 	background-color: #e3e3e3;
+	padding: 15px 0;
 
 
 }
-.card-front h1,h2 .card-back h1,h2{
+.card-header{
+	width: 80%;
+	margin:0 auto;
+	text-align: center;
+	height: 20%;
+}
+.card-skills{
+	width: 80%;
+	margin:0 auto;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+.card-skills li{
+	width: 100%;
+}
+.card-front h2,h3 .card-back h2,h3{
 	text-align: center;
 	margin-bottom: 1rem;
 	margin-top: 0.5rem;
 }
-.card-back h1{
+.card-back h2{
 	text-align: center;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 
 }
-.card-front>li , .card-back>li{
-	margin-left: 1rem;
-	margin-bottom: 1rem;
-}
 
-.card-front{
-
-
-}
 .card-back{
 	
 	transform: rotateY(180deg);
