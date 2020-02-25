@@ -15,18 +15,18 @@
 	top:50vh;
 	left:-6vw;
 	font-size:40px;
-	color: #49c5b6;
+	color: #7fe7cc;
 }
 .prDown{
 	position: absolute;
 	top:50vh;
 	right:-6vw;
 	font-size:40px;
-	color: #49c5b6;
+	color: #7fe7cc;
 
 }
 .cardHolder{
-	width:420px;
+	width:460px;
 	margin: 30px;
 	border-radius: 10px;
 	box-shadow: 10px 10px 5px #201d1e1a,
