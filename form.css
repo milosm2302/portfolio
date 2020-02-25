@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width:40vw ;
+    margin: 100px auto;
+    min-height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+form label{
+    align-items: flex-start;
+}
+input{
+    margin:10px;
+    width: 250px;
+    
+}
+textarea{
+    resize: none;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+    
+}
+label{
+    display: inline-block;
+    text-align: left;
+}

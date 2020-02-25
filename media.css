@@ -1,0 +1,322 @@
+@media only screen and (max-width: 600px){
+	.home{
+		width: auto;
+	}
+	.desktop-nav{
+		display: none;
+	}
+	.mobile-nav{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 0 auto;
+
+
+	}
+	.tgl-Btn{
+		text-align: right;
+		padding: 15px;
+		
+	}
+	.fa-bars{
+		font-size: 2em;
+		color:#49c5b6;
+	}
+	.nav-cnt{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		display: none;
+
+	}
+	.nav-cnt a{
+		color: white;
+		background-color: #49c5b6;
+		width: 100%;
+		padding: 10px;
+		text-transform: uppercase;
+		
+	}
+
+	.photo-sec{
+		grid-template-columns: 1fr;
+		grid-template-rows: 2fr 8fr 1fr; 
+			grid-template-areas: "txt"
+								"photo"
+							"linkDown";
+		width: 100vw;
+		box-sizing: border-box;
+		justify-content:center;
+		align-items:center;
+		margin-top: 15px;
+	}
+	.photoTxt{
+		padding: 5px;
+		width: 100%;
+		text-align: center;
+		flex-direction: column;
+	}
+	.photoTxt h2{
+	font-size: 1rem;
+	margin: 0;
+}
+	.photoTxt p{
+		text-align: center;
+		margin: 0;
+	}
+	.downScr{
+		text-align: center;
+		display: none;
+		margin-top: 10px;
+	}
+	.photo{
+	margin: 0 auto;
+	width:90vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.photo img{
+	height:400px;
+	
+}
+.aboutMe {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+.personality{
+	width:90vw;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+.education{
+	padding-top: 50px;
+	border: none;
+	align-items: center;
+	justify-content: space-between;
+}
+.formalEd{
+	margin-bottom: 50px;
+}
+.skills{
+	margin-bottom: 50px;
+	align-content: center;
+	width: 100%;
+	border: none;
+
+}
+
+.flip{
+	width: 80vw;
+	height: 500px;
+}
+.card-front, .card-back{
+	margin:0;
+}
+.card-front h1,h2 .card-back h1,h2{
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+.fa-arrow-alt-circle-up,  .fa-arrow-alt-circle-down, .fa-home{
+	font-size: 0;
+
+
+}
+.projects{
+	width: 100vw;
+	height: auto;
+}
+.cardHolder{
+	width: 95%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.photoHolder{
+	width: 95%;
+	height: auto;
+	padding-bottom: 10px;
+}
+.photoHolder img{
+	width: 100%;
+	margin: 0;
+}
+}
+@media only screen and (min-width: 600px)and (max-width:768px ){
+.aboutMe{
+	height: 800px;
+}
+.fa-arrow-alt-circle-up,  .fa-arrow-alt-circle-down, .fa-home{
+	font-size: 0;
+
+
+}
+
+.photo img{
+	width: 95%;
+	height: auto;
+	
+}
+.photoTxt h2{
+	font-size: 18px;
+}
+	.photoTxt p{
+		text-align: center;
+	}
+	.downScr{
+		text-align: center;
+		display: none;
+	}
+.aboutMe {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+.personality{
+	width:90vw;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+.education{
+	padding-top: 50px;
+	border: none;
+	align-items: center;
+	justify-content: space-between;
+}
+.formalEd{
+	margin-bottom: 50px;
+}
+.skills{
+	margin-bottom: 50px;
+	align-content: center;
+	width: 70%;
+	border: none;
+	margin:0 auto;
+
+}
+
+.flip{
+	width: 60vw;
+	height: 500px;
+}
+.card-front, .card-back{
+	margin:0;
+}
+.card-front h1,h2 .card-back h1,h2{
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+}
+.fa-arrow-alt-circle-up,  .fa-arrow-alt-circle-down, .fa-home{
+	font-size: 0;
+
+
+}
+.projects{
+	width: 80vw;
+	height: auto;
+}
+.cardHolder{
+	width: 95%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.photoHolder{
+	width: 95%;
+	height: auto;
+	padding-bottom: 10px;
+}
+.photoHolder img{
+	width: 100%;
+	margin: 0;
+}
+
+}
+
+@media only screen and (max-width: 1024px)and (min-width:768px ){
+		
+	.photo-sec{
+		width: 80vw;
+		height: 600px;
+		
+	}
+	.photoTxt{
+		
+		padding: 5px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+			}
+
+	.photoTxt h2{
+	font-size:2em;
+}
+	.photoTxt p{
+		text-align: center;
+	}
+	.downScr{
+		text-align: center;
+	}
+	.photo{
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 80px;
+}
+.photo img{
+	width: 90%;
+	height: auto;
+	
+}
+.aboutMe{
+	width: 100vw;
+	height: auto;
+}
+.personality{
+}
+
+.flip{
+	height: 500px;
+	width:350px;
+	margin-top: 50px;
+}
+.card-front, .card-back{
+	margin:0;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+
+}
+
+.projects{
+	width: 100vw;
+	height: auto;
+}
+.cardHolder{
+	width: 80%;
+	height: 400px;
+	margin-bottom: 50px;
+}
+.photoHolder{
+	width: 90%;
+	height: 380px;
+}
+.fa-arrow-alt-circle-up,  .fa-arrow-alt-circle-down, .fa-home{
+	font-size: 0;
+
+
+}
+}

@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+	font-family: 'Libre Franklin', sans-serif;
+}
+body{
+	box-sizing: border-box;
+		
+	
+
+}
+.mobile-nav{
+display: none;
+}
+.desktop-nav{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 80%;
+	height: 5rem;
+	align-items: center;
+	justify-content: center;
+
+}
+.cao, .name, .desc, .downScr{
+	opacity: 0;
+
+}
+
+.desktop-nav ul{
+	width: 80%;
+	list-style-type:none;
+	display: flex;
+	flex-direction: row; 
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+
+}
+
+.desktop-nav>ul>li>a, a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding-bottom: 10px;
+	border-bottom: 3px solid rgb(73, 197, 182, 0);
+}
+.desktop-nav>ul>li>a:hover{
+	border-bottom: 3px solid rgb(73, 197, 182, 1);
+	transition: 1s;
+}
+.photo-sec{
+	display: grid;
+	grid-template-rows: 3fr 1fr;
+	grid-template-columns: 2fr 3fr;
+	grid-template-areas: "txt photo"
+							"linkDown photo";
+
+
+	width: 80%;
+	height: 100%;
+	margin:0 auto;
+	margin-bottom: 100px;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.photoTxt{
+	grid-area: txt;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.downScr{
+	grid-area: linkDown;
+	text-align: center;
+}
+
+.photoTxt h2{
+	font-size: 40px;
+}
+
+
+.photo{
+	grid-area: photo;
+	width:100%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.photo img{
+	height: 500px;
+}
+
