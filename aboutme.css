@@ -91,7 +91,7 @@
 .fa-caret-down{
 
 	font-size: 1.2rem;
-	color: #7fe7cc;
+	color: #4fc1e9;
 }
 .formalTxt, .ItTxt{
 margin-top: 1rem;
@@ -209,7 +209,7 @@ margin-top: 1rem;
 .bar span{
 	height: 7px;
 	float: left;
-	background: #7fe7cc;
+	background: #4fc1e9;
 	box-shadow: 3px 3px 3px #dbced1;
 }
 

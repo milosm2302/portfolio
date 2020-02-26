@@ -41,20 +41,21 @@
 	}
 
 	.photo-sec{
-		grid-template-columns: 1fr;
-		grid-template-rows: 2fr 8fr 1fr; 
-			grid-template-areas: "txt"
-								"photo"
-							"linkDown";
-		width: 100vw;
-		box-sizing: border-box;
-		justify-content:center;
-		align-items:center;
-		margin-top: 15px;
+
+		display: flex;
+		height: 80vh;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+		margin-top: 5px;
+		padding-bottom: 30px;
 	}
 	.photoTxt{
-		padding: 5px;
 		width: 100%;
+		height: auto;
+		padding-bottom: 0;
+		margin-top: 50px;
 		text-align: center;
 		flex-direction: column;
 	}
@@ -79,7 +80,7 @@
 	align-items: center;
 }
 .photo img{
-	height:400px;
+	height:350px;
 	
 }
 .aboutMe {
