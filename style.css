@@ -22,7 +22,8 @@ display: none;
 	height: 5rem;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0 2px 0  #7fe7cb70;
+	box-shadow:inset 0 -2px  #7fe7cbf6;
+	
 
 }
 .cao, .name, .desc, .downScr{
@@ -57,13 +58,8 @@ display: none;
 
 }
 .photo-sec{
-	display: grid;
-	grid-template-rows: 3fr 1fr;
-	grid-template-columns: 2fr 3fr;
-	grid-template-areas: "txt photo"
-							"linkDown photo";
-
-
+	background-image:linear-gradient(  rgb(255, 255, 255), rgba(236, 233, 230, 0.305));
+	display: flex;
 	width: 80%;
 	height: calc(100vh - 5rem);
 	margin:0 auto;
@@ -71,22 +67,15 @@ display: none;
 	justify-content: center;
 }
 .photoTxt{
-	grid-area: txt;
-	height: 100%;
+	height: 60%;
 	width: 100%;
+	padding-bottom: 100px;
+	align-self: center;
+	justify-self: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
-
-
-}
-.downScr{
-	grid-area: linkDown;
-	height: 100%;
-	width: 100%;
-	text-align: center;
 }
 
 .photoTxt h2{
@@ -95,7 +84,6 @@ display: none;
 
 
 .photo{
-	grid-area: photo;
 	width:100%;
 	display:flex;
 	align-items: center;

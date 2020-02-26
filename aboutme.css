@@ -1,4 +1,5 @@
 .aboutMe{
+	background-image:linear-gradient( rgba(236, 233, 230, 0.305), rgb(255, 255, 255));
 	position: relative;
 	margin:0 auto;
 	width: 80vw;
@@ -20,7 +21,7 @@
 	line-height: 1.5;
 	padding-bottom:0;
 	margin: 0;
-	border-bottom:2px solid #49c5b6;
+	border-bottom:2px solid #7fe7cc;
 	
 }
 .fa-home{
@@ -90,7 +91,7 @@
 .fa-caret-down{
 
 	font-size: 1.2rem;
-	color: #7fe7cc
+	color: #7fe7cc;
 }
 .formalTxt, .ItTxt{
 margin-top: 1rem;
@@ -208,7 +209,7 @@ margin-top: 1rem;
 .bar span{
 	height: 7px;
 	float: left;
-	background: #f17e7e;
+	background: #7fe7cc;
 	box-shadow: 3px 3px 3px #dbced1;
 }
 
